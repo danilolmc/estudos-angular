@@ -1,0 +1,520 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>estudos-angular documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">estudos-angular documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content directive">
+                   <div class="content-data">
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Directives</li>
+  <li>RippeEffectDirective</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/directives/ripple-effect/rippe-effect.directive.ts</code>
+        </p>
+
+
+
+
+        <section>
+            <h3>Metadata</h3>
+            <table class="table table-sm table-hover">
+                <tbody>
+
+                    <tr>
+                        <td class="col-md-3">Selector</td>
+                        <td class="col-md-9"><code>[rippleEffect]</code></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#currentElement">currentElement</a>
+                            </li>
+                            <li>
+                                <a href="#ripple">ripple</a>
+                            </li>
+                            <li>
+                                <a href="#rippleContainer">rippleContainer</a>
+                            </li>
+                            <li>
+                                <a href="#rippleContainerHeight">rippleContainerHeight</a>
+                            </li>
+                            <li>
+                                <a href="#rippleContainerWidth">rippleContainerWidth</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>HostListeners</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#click">click</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(elementRef: <a href="https://angular.io/api/core/ElementRef" target="_blank">ElementRef</a>, renderer: <a href="https://angular.io/api/core/Renderer2" target="_blank">Renderer2</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="6" class="link-to-prism">src/app/directives/ripple-effect/rippe-effect.directive.ts:6</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>elementRef</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>renderer</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/core/Renderer2" target="_blank" >Renderer2</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+            <section>
+    <h3>HostListeners</h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="click"></a>
+                    <span class="name">
+                        <b>
+                            click
+                        </b>
+                        <a href="#click"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <i>Arguments : </i><code>'$event' </code>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>click(event: MouseEvent)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="19"
+                            class="link-to-prism">src/app/directives/ripple-effect/rippe-effect.directive.ts:19</a></div>
+                </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="currentElement"></a>
+                        <span class="name">
+                            <b>
+                            currentElement</b>
+                            <a href="#currentElement"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>HTMLElement</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>this.elementRef.nativeElement</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/app/directives/ripple-effect/rippe-effect.directive.ts:10</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ripple"></a>
+                        <span class="name">
+                            <b>
+                            ripple</b>
+                            <a href="#ripple"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>HTMLSpanElement</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/directives/ripple-effect/rippe-effect.directive.ts:13</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="rippleContainer"></a>
+                        <span class="name">
+                            <b>
+                            rippleContainer</b>
+                            <a href="#rippleContainer"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>HTMLDivElement</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/directives/ripple-effect/rippe-effect.directive.ts:12</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="rippleContainerHeight"></a>
+                        <span class="name">
+                            <b>
+                            rippleContainerHeight</b>
+                            <a href="#rippleContainerHeight"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>this.currentElement.offsetHeight</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/directives/ripple-effect/rippe-effect.directive.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="rippleContainerWidth"></a>
+                        <span class="name">
+                            <b>
+                            rippleContainerWidth</b>
+                            <a href="#rippleContainerWidth"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>this.currentElement.offsetWidth</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/directives/ripple-effect/rippe-effect.directive.ts:15</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Directive, ElementRef, HostListener, OnInit, Renderer2 } from &#x27;@angular/core&#x27;;
+
+@Directive({
+  selector: &#x27;[rippleEffect]&#x27;,
+})
+export class RippeEffectDirective {
+
+  constructor(private elementRef: ElementRef, private renderer: Renderer2) { }
+
+  currentElement: HTMLElement &#x3D; this.elementRef.nativeElement;
+
+  rippleContainer: HTMLDivElement;
+  ripple: HTMLSpanElement;
+
+  rippleContainerWidth &#x3D; this.currentElement.offsetWidth;
+  rippleContainerHeight &#x3D; this.currentElement.offsetHeight;
+
+  @HostListener(&#x27;click&#x27;, [&#x27;$event&#x27;])
+  onClick(event: MouseEvent) {
+
+
+
+    if (this.rippleContainer) {
+      this.renderer.removeChild(this.currentElement, this.currentElement.querySelector(&#x27;.ripple-container&#x27;));
+
+    }
+
+    const rippleContainer &#x3D; &#x60;
+        &lt;div class&#x3D;&#x27;ripple-container&#x27;&gt;
+          &lt;span class&#x3D;&#x27;ripple&#x27;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+    &#x60;;
+
+    this.currentElement.insertAdjacentHTML(&#x27;afterbegin&#x27;, rippleContainer);
+
+    this.rippleContainer &#x3D; this.currentElement.querySelector(&#x27;div&#x27;);
+    this.ripple &#x3D; this.currentElement.querySelector(&#x27;span&#x27;);
+    this.renderer.setStyle(this.rippleContainer,
+      &#x27;position&#x27;, &#x27;absolute&#x27;);
+
+    this.renderer.setStyle(this.rippleContainer, &#x27;width&#x27;, &#x60;${this.rippleContainerWidth}px&#x60;);
+    this.renderer.setStyle(this.rippleContainer, &#x27;height&#x27;, &#x60;${this.rippleContainerHeight}px&#x60;);
+
+    this.renderer.setStyle(this.rippleContainer, &#x27;margin&#x27;, &#x60;0&#x60;);
+    this.renderer.setStyle(this.rippleContainer, &#x27;overflow&#x27;, &#x60;hidden&#x60;);
+    this.renderer.setStyle(this.rippleContainer, &#x27;pointer-events&#x27;, &#x60;none&#x60;);
+
+
+    this.renderer.setStyle(this.ripple,
+      &#x27;position&#x27;, &#x27;absolute&#x27;);
+    this.renderer.setStyle(this.ripple, &#x27;background&#x27;, &#x27;rgba(255,255,255,.3)&#x27;);
+    this.renderer.setStyle(this.ripple, &#x27;display&#x27;, &#x27;block&#x27;);
+    this.renderer.setStyle(this.ripple, &#x27;width&#x27;, &#x27;5px&#x27;);
+    this.renderer.setStyle(this.ripple, &#x27;height&#x27;, &#x27;5px&#x27;);
+    this.renderer.setStyle(this.ripple, &#x27;border-radius&#x27;, &#x27;50%&#x27;);
+    this.renderer.setStyle(this.ripple, &#x27;transition&#x27;, &#x60;.5s ease-in-out&#x60;);
+    this.renderer.setStyle(this.ripple, &#x27;left&#x27;, &#x60;${(event.clientX - this.currentElement.offsetLeft)}px&#x60;);
+    this.renderer.setStyle(this.ripple, &#x27;top&#x27;, &#x60;${(event.clientY - this.currentElement.offsetTop)}px&#x60;);
+    this.renderer.setStyle(this.ripple, &#x27;transform&#x27;, &#x60;scale(40)&#x60;);
+
+    setTimeout(() &#x3D;&gt; {
+
+      this.renderer.setStyle(this.ripple, &#x27;opacity&#x27;, &#x60;0&#x60;);
+    }, 200);
+
+    setTimeout(() &#x3D;&gt; {
+      this.renderer.removeChild(this.rippleContainer, this.ripple);
+    }, 600);
+  }
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'directive';
+            var COMPODOC_CURRENT_PAGE_URL = 'RippeEffectDirective.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
