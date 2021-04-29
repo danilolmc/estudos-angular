@@ -2,8 +2,6 @@
 
 Repositorio utilizado para registrar estudos relacionados ao Angular
 
-<br/>
-
 ## Rodando o projeto
 
 
