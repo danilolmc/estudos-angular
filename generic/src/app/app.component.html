@@ -1,0 +1,6 @@
+<form [formGroup]="form">
+  <input vInput
+    formControlName="name">
+  </form>
+
+<div>{{form.get('name')?.value}}</div>
